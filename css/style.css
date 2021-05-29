@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+span {
+  color: rgb(237, 120, 77);
+}
+#nav {
+  background: black;
+  display: flex;
+  position: sticky;
+  top: 0;
+  color: rgb(54, 69, 84);
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 1;
+}
+#nav ul {
+  display: flex;
+  list-style:none;
+  align-items: center;
+}
+#nav ul li a {
+  padding: 0.7rem;
+}
+#nav ul li a:hover {
+  background: rgb(45, 75, 105);
+  border-radius: 3px;
+}
+#header {
+  background: url('../img/muhannad-ajjan-sL2BRR1cuvM-unsplash.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+#header .content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#section {
+  background-color: rgb(23, 34, 45);
+}
+.course {
+  display: flex;
+  justify-content: center;
+}
+.courses {
+  background: rgb(64, 64, 64);
+  border: rgb(54, 69, 84) 2px dotted;
+  border-radius: 4px;
+  padding: 0.8rem;
+  color: white;
+  margin: 1rem;
+}
+.courses ul li{
+  list-style: none;
+}
+.cc-head {
+  text-align: center;
+  padding-top: 0.8rem;
+}
+.co-head{
+  color: black;
+  text-align: center;
+}
+#copy{
+  background: rgb(237, 120, 77);
+}
+.copy {
+  padding: 0.9rem;
+  text-align: center;
+}
+#our-team {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.8rem;
+  align-content: center;
+}
+#st-img {
+  display: flex;
+  flex-direction: row;
+  align-self: center;  
+  background: black;
+  border-radius: 0.5rem;
+  padding:1rem 3rem;
+}
+#st-img div{
+  flex: 1;
+  flex-basis: 50%;
+  margin-right: 1.3rem;
+
+}
+.list{
+  padding: 2rem;
+}
+.list ul {
+  list-style:none;
+}
+.list ul li {
+  padding-bottom: 0.3rem;
+}
+#st-img .ht-img{
+  background: url('../img/dollar-gill-b-o8kGxnBkk-unsplash.jpg')no-repeat center center/cover;
+  border-radius:50%;
+}
+#st-img .ja-img{
+  background: url('../img/javier-reyes-qi2cD5oR_fE-unsplash.jpg') no-repeat center center/cover;
+  border-radius: 50%;
+}
+#st-img .py-img{
+  background: url('../img/mohamad-khosravi-Ll6ggwPpKIo-unsplash.jpg') no-repeat center center/cover;
+  border-radius: 50%;
+}
+h3{
+  padding-bottom: 0.4rem;
+  color: rgb(54, 69, 84);
+}
+.copy p {
+  font-size: 1.4rem;
+}
+.kc {
+  color: rgb(54, 69, 84);
+}
+#sign {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  margin-bottom: 00.8rem;
+}
+.kk-head{
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: rgb(54, 69, 84);
+}
+.form{
+  width:50%;
+  padding: 1rem;border-radius: 5px;
+}
+.form label{
+  display: block;
+  padding-bottom: 0.3rem;
+}
+.form input{
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+}
+.submit {
+  margin-top: 0.8rem;
+  background: rgb(54, 69, 84);
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.submit:hover{
+  background: rgb(23, 34, 45);
+}
