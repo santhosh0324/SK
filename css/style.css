@@ -121,14 +121,17 @@ span {
 #st-img .ht-img{
   background: url('../img/dollar-gill-b-o8kGxnBkk-unsplash.jpg')no-repeat center center/cover;
   border-radius:50%;
+  width: 50%;
 }
 #st-img .ja-img{
   background: url('../img/javier-reyes-qi2cD5oR_fE-unsplash.jpg') no-repeat center center/cover;
   border-radius: 50%;
+    width: 50%;
 }
 #st-img .py-img{
   background: url('../img/mohamad-khosravi-Ll6ggwPpKIo-unsplash.jpg') no-repeat center center/cover;
   border-radius: 50%;
+    width: 50%;
 }
 h3{
   padding-bottom: 0.4rem;
