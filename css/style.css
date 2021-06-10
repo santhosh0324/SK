@@ -97,6 +97,7 @@ span {
 }
 #st-img {
   display: flex;
+  flex:none;
   flex-direction: row;
   align-self: center;  
   background: black;
