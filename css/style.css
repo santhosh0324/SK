@@ -23,7 +23,7 @@ a{
   position: absolute;
   top: 0;
   left: 0;
-  background:url('/img/jason-leung-AxKqisRPQSA-unsplash.jpg')
+  background:url('img/jason-leung-AxKqisRPQSA-unsplash.jpg')
   no-repeat center center/cover;
   z-index: -1;
 }
