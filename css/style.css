@@ -15,6 +15,8 @@ a{
   background:rgba(47, 42, 47, 0.6);
   height: 100vh;
   position: relative;
+  background:url('/img/jason-leung-AxKqisRPQSA-unsplash.jpg')
+  no-repeat center center/cover;
   }
 #showcase::before{
   content: '';
@@ -23,8 +25,7 @@ a{
   position: absolute;
   top: 0;
   left: 0;
-  background:url('/img/jason-leung-AxKqisRPQSA-unsplash.jpg')
-  no-repeat center center/cover;
+
   z-index: -1;
 }
 #showcase .container{
